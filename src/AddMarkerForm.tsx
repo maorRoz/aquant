@@ -30,13 +30,13 @@ export const AddMarkerForm = ({ addMarker }: AddMarkerFormProps) => {
       <Input
         style={{ marginTop: '10px' }}
         placeholder='Enter Latitude'
-        value={latitude || ''}
+        value={latitude}
         onChange={(e) => setLatitude(e.target.value)}
       />
       <Input
         style={{ marginTop: '10px' }}
         placeholder='Enter Longitude'
-        value={longitude || ''}
+        value={longitude}
         onChange={(e) => setLongitude(e.target.value)}
       />
       <Button
